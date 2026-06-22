@@ -285,39 +285,35 @@
       <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div class="contact-copy">
           <p class="section-label">Book an appointment</p>
-          <h2 id="contact-title">Call, text, or send a request.</h2>
+          <h2 id="contact-title">Book an appointment online.</h2>
           <p>
-            For fastest service, include your city, preferred time, number of signers, and the general type of document.
+            Choose a convenient appointment time, then include your city, number of signers, and the general type of document during booking.
           </p>
           <div class="contact-methods">
             <a href="tel:+12792296984">(279) 229-6984</a>
             <a href="mailto:excelnotary06@gmail.com">excelnotary06@gmail.com</a>
           </div>
         </div>
-        <form class="request-form" id="requestForm">
-          <label>
-            Name
-            <input name="name" autocomplete="name" required>
-          </label>
-          <label>
-            Phone
-            <input name="phone" type="tel" autocomplete="tel" required>
-          </label>
-          <label>
-            City or ZIP
-            <input name="location" autocomplete="postal-code">
-          </label>
-          <label>
-            Preferred date/time
-            <input name="time">
-          </label>
-          <label class="full">
-            What do you need notarized?
-            <textarea name="details" rows="5" placeholder="Please do not include sensitive personal information."></textarea>
-          </label>
-          <button type="submit">Send Request</button>
-          <p class="form-note" id="formNote">This opens an email draft so no website backend is required.</p>
-        </form>
+        <div class="booking-panel">
+          <div class="booking-panel-header">
+            <span class="icon" aria-hidden="true">✓</span>
+            <div>
+              <h3>Calendar booking</h3>
+              <p>Pick an available time for a mobile notary appointment.</p>
+            </div>
+          </div>
+          <div class="booking-embed" id="bookingEmbed" aria-label="Online appointment booking">
+            <div class="booking-placeholder">
+              <strong>Online booking is being connected.</strong>
+              <span>Call or text for immediate scheduling while the calendar link is being finalized.</span>
+            </div>
+          </div>
+          <div class="booking-actions">
+            <a class="button primary" id="bookingLink" href="tel:+12792296984">Book Online</a>
+            <a class="button outline" href="tel:+12792296984">Call or Text</a>
+          </div>
+          <p class="form-note">Please do not include sensitive personal information in appointment notes.</p>
+        </div>
       </section>
     </main>
 
@@ -326,6 +322,6 @@
       <p>California Notary Public. Not an attorney. No legal advice provided.</p>
     </footer>
 
-    <script src="script.js?v=20260621-2"></script>
+    <script src="script.js?v=20260621-3"></script>
   </body>
 </html>
