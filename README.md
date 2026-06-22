@@ -6,7 +6,7 @@ Static website for a San Mateo-area mobile notary service.
 
 Replace these placeholders in `index.html` and `script.js`:
 
-- `hello@example.com`
+- `excelnotary06@gmail.com`
 
 Update the structured data in `index.html` with the same phone number and email.
 

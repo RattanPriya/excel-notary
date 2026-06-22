@@ -28,5 +28,5 @@ requestForm.addEventListener("submit", (event) => {
     ].join("\n"),
   );
 
-  window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:excelnotary06@gmail.com?subject=${subject}&body=${body}`;
 });
