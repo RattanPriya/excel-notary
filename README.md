@@ -6,8 +6,6 @@ Static website for a San Mateo-area mobile notary service.
 
 Replace these placeholders in `index.html` and `script.js`:
 
-- `[Phone Number]`
-- `+19165550123`
 - `hello@example.com`
 
 Update the structured data in `index.html` with the same phone number and email.
