@@ -1,12 +1,11 @@
-# Sacramento Mobile Notary Website
+# Excel Notary Website
 
-Static website for a Sacramento-area mobile notary service.
+Static website for a San Mateo-area mobile notary service.
 
 ## Personalize before publishing
 
 Replace these placeholders in `index.html` and `script.js`:
 
-- `[Dad's Name]`
 - `[Phone Number]`
 - `+19165550123`
 - `hello@example.com`
@@ -37,7 +36,7 @@ Netlify also works well for this static site.
 
 ## Recommended SEO basics
 
-- Use a business name with `Sacramento` or `Mobile Notary`.
+- Use a business name with `San Mateo` or `Mobile Notary`.
 - Create a Google Business Profile.
 - Add the website link to Yelp, Nextdoor, Bing Places, Apple Business Connect, and signing platform profiles.
 - Ask happy customers for reviews.
