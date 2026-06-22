@@ -1,7 +1,7 @@
 const year = document.querySelector("#year");
 const bookingEmbed = document.querySelector("#bookingEmbed");
 const bookingLink = document.querySelector("#bookingLink");
-const bookingUrl = "https://calendly.com/excelnotary06/notary-appointment";
+const bookingUrl = "https://calendly.com/excelnotary06";
 
 year.textContent = new Date().getFullYear();
 
